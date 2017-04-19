@@ -1,0 +1,21 @@
+#logo {
+  background: blue;
+}
+header {
+  background: orange;
+}
+nav {
+  background: green;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+  padding: 0 10px 0 0 ;
+}
+footer {
+  background: red;
+}
+/*# sourceMappingURL=style.css.map */
