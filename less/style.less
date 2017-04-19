@@ -1,25 +1,51 @@
-#logo{
-background:blue;
+@couleurPrimaire:#4bb2e7; //couleur blue
+@couleurSecondaire:white; // couleur jaune
+@couleurTernaire:black;
+
+.bg-faded{
+    background:@couleurPrimaire;
 }
 
-header{
-background:orange;
+.navbar-light .navbar-nav .nav-link{//page catégorie en cours
+    color:black;
 }
 
-nav{
-background:green;
+.navbar-light .navbar-nav .nav-link.disabled{ //lien couleur non courrant
+    color:@couleurSecondaire;
 }
 
-ul { list-style-type: none; 
-overflow: hidden;
+h1{
+    color:@couleurPrimaire;
+    text-align:center;
+    padding:20px;
 }
 
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 
-ul li { float:left;
-  padding:0 10px 0 0 ;
+article{
+height:300px;
+}
+
+ul {
+list-style-type: none;
 }
 
 
 footer{
-background:red
+    background:@couleurTernaire;
+
+    color:white;
 }
+
+
