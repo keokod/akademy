@@ -1,0 +1,22 @@
+.bg-faded {
+  background: #4bb2e7;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: white;
+}
+h1 {
+  color: #4bb2e7;
+  text-align: center;
+}
+.form-group {
+  color: red;
+  text-align: center;
+}
+footer {
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
