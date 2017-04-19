@@ -1,21 +1,37 @@
-#logo {
-  background: blue;
+.bg-faded {
+  background: #4bb2e7;
 }
-header {
-  background: orange;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
-nav {
-  background: green;
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #ffffff;
+}
+h1 {
+  color: #4bb2e7;
+  text-align: center;
+  padding: 20px;
+}
+/* centered columns styles */
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+article {
+  height: 300px;
 }
 ul {
   list-style-type: none;
-  overflow: hidden;
-}
-ul li {
-  float: left;
-  padding: 0 10px 0 0 ;
 }
 footer {
-  background: red;
+  background: #000000;
+  color: white;
 }
-/*# sourceMappingURL=style.css.map */
+
