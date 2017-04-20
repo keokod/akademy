@@ -15,9 +15,13 @@ h1 {
   color: red;
   text-align: center;
 }
+<<<<<<< HEAD
 .row {
   justify-content: center;
 }
+=======
+
+>>>>>>> origin/master
 footer {
   background: #000000;
   color: white ;
@@ -29,6 +33,10 @@ footer {
   position: relative;
   margin-top: -140px;
   /* negative value of footer height */
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
   height: 140px;
   clear: both;
 }
@@ -55,3 +63,14 @@ footer {
 .titresection {
   animation-timing-function: linear;
 }
+<<<<<<< HEAD
+=======
+
+#formulaire{
+margin:50px;
+}
+
+element {
+     background:none;
+}
+>>>>>>> origin/master
