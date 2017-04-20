@@ -15,10 +15,6 @@ h1 {
   color: red;
   text-align: center;
 }
-.container {
-  background-image: url('../image/odyssey.jpg');
-  opacity: 0.5;
-}
 .row {
   justify-content: center;
 }
@@ -26,7 +22,9 @@ footer {
   background: #000000;
   color: white ;
 }
-
+.body {
+  background-image: url('../image/odyssey.jpg');
+}
 #footer {
   position: relative;
   margin-top: -140px;
@@ -38,7 +36,7 @@ footer {
   text-align: center;
   color: red;
 }
-.video-container { //en test
+.video-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
@@ -54,6 +52,6 @@ footer {
   width: 100%;
   height: 100%;
 }
-.titresection {//marche pas
+.titresection {
   animation-timing-function: linear;
 }
