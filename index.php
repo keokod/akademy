@@ -1,5 +1,3 @@
-
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
@@ -11,36 +9,16 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <link rel="stylesheet" type="text/css" href="./css/style.css">
+          <script src="script.js"></script>
       <title>resource pédagogique</title>
    </head>
    <body>
-      <header>
-         <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">LOGO</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#">theme1 <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#">theme2<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#">theme3 <span class="sr-only">(current)</span></a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </header>
-      <main>
+<?php
+include'menu.php';
+?>
 <br/>
-         <h1>Rechercher vidéo sur dailymotion</h1>
+         <h1>Rechercher vidéo sur dailymotion (récupération de l'api )</h1>
+
 
 
 
@@ -49,38 +27,38 @@
                         <button>valider</button>
                      </div>
    		</div>
-
+         <hr/>
 
 
 
 
 
 <div class="d-flex flex-nowrap">
-  <div class="flex-first p-2"><a href="detail.html"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
+  <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
 </div>
 <hr>
 
 <div class="d-flex flex-nowrap">
-  <div class="flex-first p-2"><a href="detail.html"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
+  <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
 </div>
 
 <div class="d-flex flex-nowrap">
-  <div class="flex-first p-2"><a href="detail.html"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
+  <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
 </div>
 <hr>
 
 <div class="d-flex flex-nowrap">
-  <div class="flex-first p-2"><a href="detail.html"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
+  <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
 </div>
 
 <hr>
 
 <div class="d-flex flex-nowrap">
-  <div class="flex-first p-2"><a href="detail.html"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
+  <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
 </div>
 
@@ -99,11 +77,10 @@
                   <li class="page-item"><a class="page-link" href="#">Next</a></li>
                </ul>
             </nav>
+<?php
+include'foot.php';
+?>
 
-         <footer>
-            dev@it-akademy.fr 2017 version branche "stephane"
-         </footer>
-      </main>
    </body>
    <html>
 
