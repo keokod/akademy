@@ -10,28 +10,55 @@
 h1 {
   color: #4bb2e7;
   text-align: center;
-  padding: 20px;
 }
-/* centered columns styles */
-.row-centered {
+.form-group {
+  color: red;
   text-align: center;
 }
-.col-centered {
-  display: inline-block;
-  float: none;
-  /* reset the text-align */
-  text-align: left;
-  /* inline-block space fix */
-  margin-right: -4px;
-}
-article {
-  height: 300px;
-}
-ul {
-  list-style-type: none;
-}
+
 footer {
   background: #000000;
-  color: white;
+  color: white ;
+}
+.body {
+  background-image: url('../image/odyssey.jpg');
+}
+#footer {
+  position: relative;
+  margin-top: -140px;
+  /* negative value of footer height */
+
+  height: 140px;
+  clear: both;
+}
+.tfooter {
+  text-align: center;
+  color: red;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.titresection {
+  animation-timing-function: linear;
 }
 
+#formulaire{
+margin:50px;
+}
+
+element {
+     background:none;
+}
