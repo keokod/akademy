@@ -1,0 +1,59 @@
+.bg-faded {
+  background: #4bb2e7;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #ffffff;
+}
+h1 {
+  color: #4bb2e7;
+  text-align: center;
+}
+.form-group {
+  color: red;
+  text-align: center;
+}
+.container {
+  background-image: url('../image/odyssey.jpg');
+  opacity: 0.5;
+}
+.row {
+  justify-content: center;
+}
+footer {
+  background: #000000;
+  color: white ;
+}
+
+#footer {
+  position: relative;
+  margin-top: -140px;
+  /* negative value of footer height */
+  height: 140px;
+  clear: both;
+}
+.tfooter {
+  text-align: center;
+  color: red;
+}
+.video-container { //en test
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.titresection {//marche pas
+  animation-timing-function: linear;
+}

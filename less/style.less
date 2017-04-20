@@ -1,0 +1,76 @@
+// out: ../css/style.css
+// main: init.less
+@couleurPrimaire:#4bb2e7; //couleur blue
+@couleurSecondaire:white; // couleur jaune
+@couleurTernaire:black;
+@string: '../image/odyssey.jpg';
+
+
+.bg-faded{
+    background:@couleurPrimaire;
+}
+
+.navbar-light .navbar-nav .nav-link{//page catégorie en cours
+    color:black;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled{ //lien couleur non courrant
+    color:@couleurSecondaire;
+}
+
+h1{
+    color:@couleurPrimaire;
+    text-align:center;
+
+}
+
+.form-group{
+    color:red;
+    text-align:center;
+}
+
+.container{
+background-image: url(@string);
+ opacity: 0.5;
+}
+
+row{
+justify-content: center;
+}
+footer{
+    background:@couleurTernaire;
+    color:white ;
+}
+html{
+background-image: url(@string);
+}
+
+#footer {
+position: relative;
+margin-top: -140px; /* negative value of footer height */
+height: 140px;
+clear:both;}
+
+.tfooter{
+text-align:center;
+color:red;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.titresection{
+animation-timing-function:linear;
+}
