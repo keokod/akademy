@@ -16,9 +16,10 @@ $(function () {
         });
 
     });
-
+    
+    $("#resultat").append(localStorage.getItem('chaineHtml'));
 
 });
 
 //console.log(localStorage.getItem('chaineHtml'));
-document.write(localStorage.getItem('chaineHtml'));
+//document.write(localStorage.getItem('chaineHtml'));

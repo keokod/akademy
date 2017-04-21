@@ -42,7 +42,10 @@
             <div class="col"></div>
          </div>
          <hr/>
-
+******
+         <div id="resultat">
+            
+         </div>
        <script src="daily.js"></script>
          
          <div class="d-flex justify-content-center">
