@@ -6,7 +6,7 @@ Fonctionnalité Developpés: -bouton qui permet de changer le backgroud color.
 
 
 
-Bugs  : La recherche de vidéo est fonctionne pas pour l'instant(on répecupère le lien  
+Bugs  : La recherche de vidéo est fonctionne pas pour l'instant(on répecupère le lien mais on  a ffiche pas encore  totalement  la vidéo
 		    La pagination n'est pas opérationnel.
 		
 		
