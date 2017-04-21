@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <title>Vidéo</title>
     </head>
-    <body>
+    <body >
         <?php
         include'menu.php';
         ?>
@@ -37,6 +37,12 @@
         </div>
     </div>
   </div>
-    <?php
-    include'foot.php';
-    ?>
+  <footer class= "footerD">
+     <div class="d-flex justify-content-center">
+       <p class="text-muted">dev@it-akademy.fr 2017</p>
+      </div>
+   </footer>
+</main>
+
+</body>
+<html>

@@ -16,14 +16,35 @@
 <?php
 include'menu.php';
 ?>
-<br/>
-         <h1>Rechercher vidéo sur dailymotion (récupération de l'api )</h1>
+<div id="slider">
+<figure>
+<img src="austin-fireworks.jpg" alt>
+<img src="taj-mahal_copy.jpg" alt>
+<img src="ibiza.jpg" alt>
+<img src="ankor-wat.jpg" alt>
+<img src="austin-fireworks.jpg" alt>
+</figure>
 
-		<div class="d-flex align-items-center" >
-                          <input id="formulaire" type="text" name="motcle">
-                        <button>valider</button>
-                     </div>
-   		</div>
+<div class="container-fluid">
+<br/><h1>Rechercher vidéo sur dailymotion (récupération de l'api )</h1>
+
+  <div class="row align-items-center">
+      <div class="col"></div>
+        <div class="col">
+
+  <!--
+      <input id="formulaire" type="text" name="motcle"><button>valider</button>
+      -->
+      <div class="input-group">
+     <input type="text" class="form-control">
+     <span class="input-group-btn">
+       <button class="btn btn-primary" type="button" name="motcle" id="formulaire">valider</button>
+     </span>
+   </div>
+        </div>
+      <div class="col"></div>
+    </div>
+
          <hr/>
 
 <div class="d-flex flex-nowrap">
@@ -57,19 +78,31 @@ include'menu.php';
             <div>
               <p>Résultats total de pages: 9 (animation déplacement des page limite+ avant, et  limite - précédent</p>
             </div>
-            <div class= "row">
-            <nav aria-label="pagination pagination-lg">
-               <ul class="pagination">
-                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                  <li class="page-item"><a class="page-link" href="#">page 4</a></li>
-                  <li class="page-item"><a class="page-link" href="#">page 5</a></li>
-                  <li class="page-item"><a class="page-link" href="#">page 6</a></li>
-                  <li class="page-item"><a class="page-link" href="#">page 7</a></li>
-                  <li class="page-item"><a class="page-link" href="#">page 8</a></li>
-                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
-               </ul>
-            </nav>
+            <div class="d-flex justify-content-center">
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                          <li class="page-item"><a class="page-link" href="#">5</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                              <span class="sr-only">Next</span></a>
+                          </li>
+                          </ul>
+                            </nav>
+
           </div>
+</div>
 <?php
 include'foot.php';
 ?>
