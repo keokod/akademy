@@ -1,5 +1,5 @@
 Projet : se connecter  via  api de dayllymotion  et recupérer des vidéos concernant  les jeux sur  différentes  plateformes
-Auteurs: Stephane  et Gregory Norvene
+Auteurs: Stephane ngov  et Gregory Norvene
 Fonctionnalité Developpés: -bouton qui permet de changer le backgroud color.
 							-Recupére des vidéos par  tranche de 5.
 							-slider dans la premiere  pagesur  les  différentes  plateformes. 
