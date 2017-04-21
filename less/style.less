@@ -86,3 +86,18 @@ background-color:#316c4580;
 .bg3 {
 background-color:#316c4580;
 }
+/* Le parent */
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+/* L'enfant */
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
