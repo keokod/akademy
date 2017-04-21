@@ -16,6 +16,16 @@
                      <a class="nav-link" href="#">XBOX ONE</a>
                   </li>
                </ul>
+               <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">theme
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                   <li class="one"><a href="#">Background 1</a></li>
+                   <li class="two"><a href="#">Background 2</a></li>
+                   <li class="three"><a href="#">Background default</a></li>
+                 </ul>
+  </div>
+</div>
             </div>
          </nav>
       </header>

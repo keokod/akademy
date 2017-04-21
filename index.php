@@ -16,14 +16,6 @@
 <?php
 include'menu.php';
 ?>
-<div id="slider">
-<figure>
-<img src="austin-fireworks.jpg" alt>
-<img src="taj-mahal_copy.jpg" alt>
-<img src="ibiza.jpg" alt>
-<img src="ankor-wat.jpg" alt>
-<img src="austin-fireworks.jpg" alt>
-</figure>
 
 <div class="container-fluid">
 <br/><h1>Rechercher vidéo sur dailymotion (récupération de l'api )</h1>
@@ -35,10 +27,10 @@ include'menu.php';
   <!--
       <input id="formulaire" type="text" name="motcle"><button>valider</button>
       -->
-      <div class="input-group">
-     <input type="text" class="form-control">
+      <div class="input-group" >
+     <input type="text" class="form-control" id="formulaire">
      <span class="input-group-btn">
-       <button class="btn btn-primary" type="button" name="motcle" id="formulaire">valider</button>
+       <button class="btn btn-primary" type="button" name="motcle" >valider</button>
      </span>
    </div>
         </div>
