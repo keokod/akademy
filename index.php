@@ -76,8 +76,7 @@ $(function () {
 //document.write(localStorage.getItem('chaineHtml'));
        </script>
          
-       <script src="daily.js"></script>
-         
+       
          <div class="d-flex justify-content-center">
             <nav aria-label="Page navigation example">
                <ul class="pagination">
