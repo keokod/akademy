@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -17,21 +17,16 @@
         include'menu.php';
         ?>
         <div class="container">
-        <div class="row" id="divide"></div>
+        <div class="row" id="divide4"></div>
         <div class="row align-items-center">
           <div class="col"></div>
-            <div class="col"><h2> Swicht </h2></div>
+            <div class="col"><h1> Swicht </h1></div>
             <div class="col"></div>
         </div>
-        <div class="row" id="divide"></div>
+        <div class="row" id="divide4"></div>
 
-        <div class="row">
-          <div class="col"></div>
-            <div class="col">
-            <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x5e0o27" allowfullscreen></iframe>
-            </div>
-            <div class="col"></div>
-        </div>
+        <div class="videoWrapper"><iframe src="http://www.youtube-nocookie.com/embed/FtgUOIahty5PoM" height="286" width="509" allowfullscreen="" frameborder="0"></iframe></div>
+
         <div class="row" id="divide2"></div>
         <div class="row align-items-center">
             <div class="col">
@@ -48,4 +43,4 @@
 </main>
 
 </body>
-<html>
+</html>
