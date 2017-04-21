@@ -14,34 +14,29 @@
         <?php
         include'menu.php';
         ?>
-
-     
-        <div class="row">
-            <div class="col"><h2> Titanic </h2></div>
+        <div class="container">
+        <div class="row" id="divide"></div>
+        <div class="row align-items-center">
+          <div class="col"></div>
+            <div class="col"><h2> Swicht </h2></div>
+            <div class="col"></div>
         </div>
-
+        <div class="row" id="divide"></div>
         <div class="row">
-            <div class= "video-container col">
-                <iframe width="349" height="349" src="https://www.youtube.com/embed/-328myKPzUk" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <div class="espace row">
+          <div class="col"></div>
             <div class="col">
+            <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x5e0o27" allowfullscreen></iframe>
             </div>
+            <div class="col"></div>
         </div>
-
-        <div class="row">
+        <div class="row" id="divide2"></div>
+        <div class="row align-items-center">
             <div class="col">
-                <p>Le naufrage a été un choc dans le monde entier, et notamment à New York et en Angleterre. Après le naufrage, plusieurs commissions d'enquête ont été menées et leurs conclusions ont servi à améliorer la sécurité maritime, notamment grâce à de nouvelles réglementations. Plusieurs facteurs se conjuguent pour expliquer à la fois le naufrage et le nombre élevé des passagers à ne pas y avoir survécu. Le navire ne disposait pas de canots de sauvetage en nombre suffisant et l'équipage n'avait jamais été entraîné à gérer ce type d'événement. De ce fait, l'évacuation des passagers a été mal organisée et les canots ont été sous-chargés. Le comportement du commandant Edward Smith a aussi été dénoncé, notamment parce qu'il avait maintenu le paquebot à une vitesse trop élevée compte tenu des conditions de navigation. Les circonstances météorologiques et climatiques ont également joué un rôle déterminant. </p>
+                <p>Vous devez à nouveau affronter l'increvable General Morden. Vous avez toujours à disposition des armes aussi diverses que puissantes, et pourrez vous déplacer grâce à divers moyens de locomotion farfelus tels que des chameaux ou encore des éléphants.. </p>
             </div>
         </div>
     </div>
-
+  </div>
     <?php
     include'foot.php';
     ?>
-
-</body>
-
-</html>

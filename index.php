@@ -19,9 +19,6 @@ include'menu.php';
 <br/>
          <h1>Rechercher vidéo sur dailymotion (récupération de l'api )</h1>
 
-
-
-
 		<div class="d-flex align-items-center" >
                           <input id="formulaire" type="text" name="motcle">
                         <button>valider</button>
@@ -29,10 +26,6 @@ include'menu.php';
    		</div>
          <hr/>
 
-
-
-
-
 <div class="d-flex flex-nowrap">
   <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
@@ -61,11 +54,10 @@ include'menu.php';
   <div class="flex-first p-2"><a href="detail.php"><img class="p-2" src="./image/odyssey_min.jpg"></a></div>
   <div class="flex-last p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, laoreet et mauris id, pharetra rutrum eros. Nulla at leo suscipit, ultricies leo in, auctor nunc. Sed ut sodales risus. Quisque vitae fringilla ante. Proin euismod massa nec erat sollicitudin, ut bibendum nisl vulputate. Aenean vel eleifend elit, nec venenatis urna. Sed scelerisque tincidunt risus, vel molestie massa. Donec ac imperdiet sapien. Morbi commodo ex id ex venenatis malesuada. </div>
 </div>
-
-
             <div>
-               Résultats total de pages: 9 (animation déplacement des page limite+ avant, et  limite - précédent
+              <p>Résultats total de pages: 9 (animation déplacement des page limite+ avant, et  limite - précédent</p>
             </div>
+            <div class= "row">
             <nav aria-label="pagination pagination-lg">
                <ul class="pagination">
                   <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -77,11 +69,9 @@ include'menu.php';
                   <li class="page-item"><a class="page-link" href="#">Next</a></li>
                </ul>
             </nav>
+          </div>
 <?php
 include'foot.php';
 ?>
-
    </body>
    <html>
-
-
