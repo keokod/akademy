@@ -42,10 +42,40 @@
             <div class="col"></div>
          </div>
          <hr/>
-******
+
+         
          <div id="resultat">
             
          </div>
+                <script>
+       //fichier pour récupérer le REST de l'api dailymotion
+
+$(function () {
+    $('#charger').click(function () {
+        $.getJSON('https://api.dailymotion.com/videos?fields=id,&search=videogames&limit=20', function (donnees) {
+            var chaineHtml = '';
+            for (var i = 0; i < donnees.list.length; i++) {
+                chaineHtml += '<a href="detail.php\?idDaily=' + donnees.list[i]["id"] + '"><img src="http://www.dailymotion.com/thumbnail/video/' + donnees.list[i]["id"] + '"></a><hr/>';
+                //  console.log(chaineHtml);
+                //chaineHtml+='	<img src="www.dailymotion.com/thumbnail/video/'+donnees.list[i]["id"]+"/>';
+            }
+            //localStorage.setItem('chaineHtml', chaineHtml);
+         // localStorage.setItem('chaineHtml','');
+            $('#miniature').append(chaineHtml);
+        });
+
+    });
+    
+    $("#resultat").append(localStorage.getItem('chaineHtml'));
+
+});
+
+
+
+//console.log(localStorage.getItem('chaineHtml'));
+//document.write(localStorage.getItem('chaineHtml'));
+       </script>
+         
        <script src="daily.js"></script>
          
          <div class="d-flex justify-content-center">
